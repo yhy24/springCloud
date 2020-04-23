@@ -1,0 +1,3 @@
+# Project exclude paths
+/springcloud-order8005/target/
+/springcloud-payment8001/target/

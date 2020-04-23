@@ -1,0 +1,8 @@
+server:
+  port: 8005
+  servlet:
+    context-path: /order
+
+spring:
+  application:
+    name: order8005
