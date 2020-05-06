@@ -6,3 +6,16 @@ server:
 spring:
   application:
     name: order8005
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.181:13306/oms_basic_vr?autoReconnect=true&useSSL=true
+    username: oms_basic
+    password: oms_basic
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.yang.cloud.order.entity
+  configuration:
+    map-underscore-to-camel-case: true
